@@ -1,0 +1,755 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Equipment.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TOOLBAR1            ICON    DISCARDABLE     "res\\icon7.ico"
+IDR_MAINTITLE           ICON    DISCARDABLE     "res\\a.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\65.ico"
+IDI_ICON2               ICON    DISCARDABLE     "res\\63.ico"
+IDI_ICON3               ICON    DISCARDABLE     "res\\删除.ico"
+IDI_ICON4               ICON    DISCARDABLE     "res\\51.ico"
+IDI_ICON5               ICON    DISCARDABLE     "res\\02.ico"
+IDI_ICON6               ICON    DISCARDABLE     "res\\icon6.ico"
+IDI_TOOLBAR2            ICON    DISCARDABLE     "res\\toolbar2.ico"
+IDI_TOOLBAR3            ICON    DISCARDABLE     "res\\toolbar3.ico"
+IDI_TOOLBAR4            ICON    DISCARDABLE     "res\\toolbar4.ico"
+IDI_TOOLBAR5            ICON    DISCARDABLE     "res\\toolbar5.ico"
+IDI_TOOLBAR6            ICON    DISCARDABLE     "res\\toolbar6.ico"
+IDI_TOOLBAR7            ICON    DISCARDABLE     "res\\toolbar7.ico"
+IDI_TOOLBAR8            ICON    DISCARDABLE     "res\\toolbar8.ico"
+IDI_TOOLBAR9            ICON    DISCARDABLE     "res\\toolbar9.ico"
+IDI_TOOLBAR10           ICON    DISCARDABLE     "res\\toolbar1.ico"
+IDI_TOOLBAR11           ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_TOOLBAR12           ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_TOOLBAR13           ICON    DISCARDABLE     "res\\ico00003.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 333, 203
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于..."
+FONT 9, "宋体"
+BEGIN
+    CONTROL         199,IDC_STATIC,"Static",SS_BITMAP,0,0,333,203
+END
+
+IDD_EQUIPMENT_DIALOG DIALOGEX 0, 0, 581, 359
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "sdsdfsdfsadf"
+MENU IDR_MAINMENU
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+END
+
+IDD_EQUIPKIND_DIALOG DIALOG DISCARDABLE  0, 0, 261, 213
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "资产类别管理"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "类别名称",IDC_STATIC,13,54,32,8
+    EDITTEXT        IDC_EDIT1,49,52,123,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DATAGRID,"{CDE57A43-8B86-11D0-B3C6-00A0C90AEA82}",
+                    WS_TABSTOP,14,72,219,117
+    GROUPBOX        "",IDC_STATIC,4,39,253,164
+END
+
+IDD_ADDKINDS_DIALOG DIALOGEX 0, 0, 276, 204
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "资产增加方式管理"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "资产增加方式",IDC_STATIC,15,51,76,20
+    EDITTEXT        IDC_EDIT1,94,49,96,14,ES_AUTOHSCROLL
+    CONTROL         "List2",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,15,78,238,105,WS_EX_CLIENTEDGE
+    GROUPBOX        "",IDC_STATIC,5,41,264,152
+END
+
+IDD_REDUCEKINDS_DIALOG DIALOGEX 0, 0, 241, 227
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "资产减少方式管理"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "资产减少方式",IDC_STATIC,19,61,51,8
+    EDITTEXT        IDC_EDIT1,71,59,96,14,ES_AUTOHSCROLL
+    CONTROL         "List2",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,18,79,205,122,WS_EX_CLIENTEDGE
+    GROUPBOX        "",IDC_STATIC,7,42,227,173
+END
+
+IDD_USESTATE_DIALOG DIALOGEX 0, 0, 259, 215
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "资产使用状况管理"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "资产使用状况",IDC_STATIC,16,64,51,8
+    EDITTEXT        IDC_EDIT1,70,61,96,14,ES_AUTOHSCROLL
+    CONTROL         "List2",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,15,82,226,105,WS_EX_CLIENTEDGE
+    GROUPBOX        "",IDC_STATIC,8,45,241,160
+END
+
+IDD_ADDEQUIP_DIALOG DIALOGEX 0, 0, 403, 199
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加资产设备"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EQUIPNAME,70,58,66,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_EQUIPKINDS,70,78,67,60,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ADDKINDS,70,97,67,70,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_SOURCEVALUE,70,115,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ADDUPDEPRE,70,134,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PUREVALUE,70,152,66,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SPEC,196,57,66,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_USESTATE,196,77,67,64,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PREPURSERATE,196,96,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PREPUREVALUE,196,114,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "DateTimePicker1",IDC_REGDATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,196,133,66,15
+    EDITTEXT        IDC_PREUSEMONTH,196,153,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_DEPREMONTH,312,57,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_DEPREMETHOD,312,76,67,66,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_MONTHDEPRERATE,312,96,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_MONTHDEPREVALUE,312,116,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    RTEXT           "资产名称",IDC_STATIC,26,61,36,8
+    RTEXT           "资产类别",IDC_STATIC,26,80,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "增加方式",IDC_STATIC,26,99,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "入账原值",IDC_STATIC,26,118,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "累计折旧",IDC_STATIC,26,137,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "净    值",IDC_STATIC,26,156,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "规格型号",IDC_STATIC,154,61,36,8
+    RTEXT           "使用状况",IDC_STATIC,154,80,36,8
+    RTEXT           "预计净残值率",IDC_STATIC,140,99,50,8
+    RTEXT           "预计净残值",IDC_STATIC,147,118,43,8
+    RTEXT           "入账日期",IDC_STATIC,154,137,36,8
+    RTEXT           "预计使用月份",IDC_STATIC,133,156,57,8
+    RTEXT           "已计提月份",IDC_STATIC,264,60,42,8
+    RTEXT           "折旧方法",IDC_STATIC,270,80,36,8
+    RTEXT           "月折旧率",IDC_STATIC,270,100,36,8
+    RTEXT           "月折旧额",IDC_STATIC,270,120,36,8
+    GROUPBOX        "基础信息",IDC_STATIC,9,43,384,134
+END
+
+IDD_UPDATEEQUIP_DIALOG DIALOGEX 0, 0, 477, 321
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改固定资产"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EQUIPNAME,72,190,66,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_EQUIPKINDS,72,210,67,60,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ADDKINDS,72,229,67,70,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_SOURCEVALUE,72,247,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ADDUPDEPRE,72,266,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PUREVALUE,72,284,66,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SPEC,198,189,66,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_USESTATE,198,209,67,64,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PREPURSERATE,198,228,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PREPUREVALUE,198,246,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "DateTimePicker1",IDC_REGDATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,198,265,66,15
+    EDITTEXT        IDC_PREUSEMONTH,198,285,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_DEPREMONTH,314,189,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_DEPREMETHOD,314,208,67,66,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_MONTHDEPRERATE,314,228,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_MONTHDEPREVALUE,314,248,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    RTEXT           "资产名称",IDC_STATIC,28,193,36,8
+    RTEXT           "资产类别",IDC_STATIC,28,212,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "增加方式",IDC_STATIC,28,231,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "入账原值",IDC_STATIC,28,250,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "累计折旧",IDC_STATIC,28,269,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "净    值",IDC_STATIC,28,288,36,8,0,WS_EX_TRANSPARENT
+    RTEXT           "规格型号",IDC_STATIC,156,193,36,8
+    RTEXT           "使用状况",IDC_STATIC,156,212,36,8
+    RTEXT           "预计净残值率",IDC_STATIC,142,231,50,8
+    RTEXT           "预计净残值",IDC_STATIC,149,250,43,8
+    RTEXT           "入账日期",IDC_STATIC,156,269,36,8
+    RTEXT           "预计使用月份",IDC_STATIC,135,288,57,8
+    RTEXT           "已计提月份",IDC_STATIC,266,192,42,8
+    RTEXT           "折旧方法",IDC_STATIC,272,212,36,8
+    RTEXT           "月折旧率",IDC_STATIC,272,232,36,8
+    RTEXT           "月折旧额",IDC_STATIC,272,252,36,8
+    GROUPBOX        "基础信息",IDC_STATIC,8,175,460,134
+    GROUPBOX        "查询条件",IDC_STATIC,8,43,460,31
+    LTEXT           "资产名称",IDC_STATIC,29,55,42,8
+    COMBOBOX        IDC_QUERYCONDITION,67,52,115,72,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "查询",IDC_QUERY,192,52,44,15
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,8,78,460,93
+    RTEXT           "资产编号",IDC_STATIC,269,269,39,8
+    EDITTEXT        IDC_EquipID,314,266,65,14,ES_AUTOHSCROLL | WS_DISABLED
+END
+
+IDD_DELETEEQUIP_DIALOG DIALOG DISCARDABLE  0, 0, 320, 201
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DELETEEQUIPMENT_DIALOG DIALOG DISCARDABLE  0, 0, 327, 203
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "删除资产信息"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "查询条件",IDC_STATIC,7,43,311,32
+    RTEXT           "资产名称",IDC_STATIC,32,56,38,8
+    COMBOBOX        IDC_QUERYCONDITION,77,53,115,72,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "查询",IDC_QUERY,202,53,44,15
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,80,311,116
+END
+
+IDD_REDUCEEQUIP_DIALOG DIALOG DISCARDABLE  0, 0, 418, 303
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "资产减少管理"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_QUERYCONDITION,79,58,115,72,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ID,65,198,72,14,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_REDUCEMODE,65,218,72,72,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_CLEARECHARGE,65,236,72,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLEARREASON,65,256,206,14,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_NAME,199,198,72,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_CLERAERNING,200,217,72,14,ES_AUTOHSCROLL
+    CONTROL         "DateTimePicker1",IDC_CLEARDATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,200,235,72,15
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,87,404,85
+    GROUPBOX        "资产减少信息",IDC_STATIC,7,179,404,106
+    GROUPBOX        "查询条件",IDC_STATIC,7,46,404,36
+    RTEXT           "资产名称",IDC_STATIC,33,61,38,8
+    PUSHBUTTON      "查询",IDC_QUERY,202,57,44,15
+    LTEXT           "资产编号",IDC_STATIC,27,201,36,8
+    LTEXT           "资产名称",IDC_STATIC,161,201,38,8
+    LTEXT           "减少方式",IDC_STATIC,27,220,36,8
+    LTEXT           "清理费用",IDC_STATIC,161,220,35,8
+    LTEXT           "清理收入",IDC_STATIC,27,239,35,8
+    LTEXT           "清理日期",IDC_STATIC,161,239,37,8
+    LTEXT           "清理原因",IDC_STATIC,27,258,37,8
+END
+
+IDD_DEPRE_DIALOG DIALOGEX 0, 0, 294, 201
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "计提管理"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,44,278,33
+    LTEXT           "计提日期",IDC_STATIC,24,58,35,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,59,54,63,15
+    LTEXT           "系统当前日期",IDC_STATIC,146,59,50,8
+    EDITTEXT        IDC_EDIT1,197,56,63,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CONTROL         "",IDC_RICHEDIT2,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_NOHIDESEL | ES_READONLY | 
+                    ES_WANTRETURN | WS_DISABLED | WS_BORDER | WS_TABSTOP,7,
+                    83,278,107,WS_EX_ACCEPTFILES
+END
+
+IDD_UNDEPRE_DIALOG DIALOGEX 0, 0, 255, 192
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "反计提管理"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,44,239,33
+    LTEXT           "系统当前日期",IDC_STATIC,22,58,49,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_DISABLED | WS_TABSTOP,73,55,63,15
+    CONTROL         "",IDC_RICHEDIT2,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_NOHIDESEL | ES_READONLY | 
+                    ES_WANTRETURN | WS_DISABLED | WS_BORDER | WS_TABSTOP,7,
+                    81,239,96,WS_EX_ACCEPTFILES
+END
+
+IDD_DATABACKUP_DIALOG DIALOG DISCARDABLE  0, 0, 252, 161
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据备份"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "数据库备份文件",IDC_STATIC,39,63,62,8
+    EDITTEXT        IDC_EDIT1,40,79,142,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,185,79,16,14
+    GROUPBOX        "备份信息",IDC_STATIC,7,46,238,64
+END
+
+IDD_DATARESTORE_DIALOG DIALOG DISCARDABLE  0, 0, 255, 204
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据还原"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "数据库备份文件",IDC_STATIC,39,63,62,8
+    EDITTEXT        IDC_EDIT1,40,79,142,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,185,79,16,14
+    GROUPBOX        "备份信息",IDC_STATIC,7,46,239,64
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,116,239,73
+END
+
+IDD_SYSINI_DIALOG DIALOG DISCARDABLE  0, 0, 199, 118
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统初始化"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "提示：\n   系统初始化是一个危险的操作,它将清除数据库中所有的数据,在进行初始化之前,强烈建议您备份数据库.",
+                    IDC_STATIC,18,52,158,42
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Equipment Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Equipment\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Equipment.EXE\0"
+            VALUE "ProductName", "Equipment 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_EQUIPMENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 574
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 352
+    END
+
+    IDD_EQUIPKIND_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 252
+        BOTTOMMARGIN, 209
+    END
+
+    IDD_ADDKINDS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_REDUCEKINDS_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 235
+        TOPMARGIN, 24
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_USESTATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_ADDEQUIP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 396
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_UPDATEEQUIP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 468
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 314
+    END
+
+    IDD_DELETEEQUIP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DELETEEQUIPMENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_REDUCEEQUIP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 411
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 296
+    END
+
+    IDD_DEPRE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_UNDEPRE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_DATABACKUP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_DATARESTORE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_SYSINI_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "基础信息管理"
+    BEGIN
+        MENUITEM "资产类别管理",                IDS_EQUIPKIND
+        MENUITEM "资产增加方式管理",            IDS_ADDMODE
+        MENUITEM SEPARATOR
+        MENUITEM "资产减少方式管理",            IDS_REDUSEMODE
+        MENUITEM "资产使用状况管理",            IDS_USESTATE
+    END
+    POPUP "资产设备管理"
+    BEGIN
+        MENUITEM "增加资产设备",                IDS_ADDEQUIP
+        MENUITEM "修改固定资产",                IDS_UPDATEEQUIP
+        MENUITEM SEPARATOR
+        MENUITEM "删除固定资产",                IDS_DELETEEQUIP
+        MENUITEM "减少固定资产",                IDS_REDUSEEQUIP
+        MENUITEM SEPARATOR
+        MENUITEM "计提管理",                    IDS_DEPRECIATION
+        MENUITEM "反计提管理",                  IDS_CANCELDEPRE
+    END
+    POPUP "系统维护"
+    BEGIN
+        MENUITEM "数据备份",                    IDS_BACKUP
+        MENUITEM "数据还原",                    IDS_Restore
+        MENUITEM SEPARATOR
+        MENUITEM "系统初始化",                  ID_MENUSYSINI
+    END
+    POPUP "工具"
+    BEGIN
+        MENUITEM "记事本",                      ID_NOTE
+        MENUITEM "计算器",                      ID_Calculator
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于...",                     ID_MENUABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_ABOUTBITMAP         BITMAP  DISCARDABLE     "res\\未标题-1 拷贝.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\资产设备管理系统主界面.bmp"
+IDR_TOOLBAR1            BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR DISCARDABLE  416, 32
+BEGIN
+    BUTTON      ID_BUTTON32788
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_EQUIPKIND_DIALOG DLGINIT
+BEGIN
+    IDC_DATAGRID, 0x37a, 480, 0
+0x0024, 0x0000, 0x0043, 0x0044, 0x0045, 0x0035, 0x0037, 0x0041, 0x0035, 
+0x0035, 0x002d, 0x0038, 0x0042, 0x0038, 0x0036, 0x002d, 0x0031, 0x0031, 
+0x0044, 0x0030, 0x002d, 0x0062, 0x0033, 0x0043, 0x0036, 0x002d, 0x0030, 
+0x0030, 0x0041, 0x0030, 0x0043, 0x0039, 0x0030, 0x0041, 0x0045, 0x0041, 
+0x0038, 0x0032, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x002a, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x2201, 0x0000, 0x10a4, 
+0x0000, 0xe860, 0x5ad5, 0x0000, 0x0006, 0x0001, 0x0000, 0x0002, 0x0000, 
+0x0005, 0x8000, 0x0008, 0x8000, 0x0000, 0x3f80, 0x0000, 0x4160, 0x0000, 
+0x0000, 0x0101, 0x0002, 0x0001, 0x0101, 0x0001, 0x0100, 0x0000, 0x0000, 
+0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x8601, 
+0x0000, 0x0190, 0xd4c0, 0x0001, 0xcb04, 0xccce, 0x03e5, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0086, 0x9000, 0x9001, 
+0x015f, 0x0400, 0xcecb, 0xe5cc, 0x0000, 0x0000, 0x0000, 0x0000, 0x0006, 
+0x0000, 0x0004, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0xffff, 0xffff, 
+0xffff, 0xffff, 0x0000, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5690, 0x6d83, 0x900b, 0x11d0, 
+0x8494, 0xa000, 0x11c9, 0xed10, 0x3850, 0x6b26, 0x0002, 0x0006, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0086, 0x9000, 0x4401, 0x0142, 0x0400, 0xcecb, 0x0804, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5690, 0x6d83, 0x900b, 0x11d0, 
+0x8494, 0xa000, 0x11c9, 0xed10, 0x3850, 0x6b26, 0x0002, 0x0006, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0804, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x4264, 0x0000, 
+0x0000, 0x0002, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x4264, 
+    0
+END
+
+IDD_ADDEQUIP_DIALOG DLGINIT
+BEGIN
+    IDC_DEPREMETHOD, 0x403, 12, 0
+0xbdc6, 0xf9be, 0xeac4, 0xdecf, 0xa8b7, 0x0031, 
+    IDC_DEPREMETHOD, 0x403, 12, 0
+0xbdc6, 0xf9be, 0xeac4, 0xdecf, 0xa8b7, 0x0032, 
+    0
+END
+
+IDD_UPDATEEQUIP_DIALOG DLGINIT
+BEGIN
+    IDC_DEPREMETHOD, 0x403, 12, 0
+0xbdc6, 0xf9be, 0xeac4, 0xdecf, 0xa8b7, 0x0031, 
+    IDC_DEPREMETHOD, 0x403, 12, 0
+0xbdc6, 0xf9be, 0xeac4, 0xdecf, 0xa8b7, 0x0032, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Equipment(&A)..."
+    IDS_EQUIPKIND           "资产类别"
+    IDS_ADDMODE             "增加方式"
+    IDS_REDUSEMODE          "减少方式"
+    IDS_USESTATE            "使用状况"
+    IDS_ADDEQUIP            "增加资产"
+    IDS_UPDATEEQUIP         "修改资产"
+    IDS_DELETEEQUIP         "删除资产"
+    IDS_REDUSEEQUIP         "减少资产"
+    IDS_DEPRECIATION        "计提管理"
+    IDS_CANCELDEPRE         "反计提"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_BACKUP              "数据备份"
+    IDS_Restore             "数据还原"
+    IDS_QUIT                "系统退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMPANY             "吉林省明日科技有限公司"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BUTTONADD            "信息添加"
+    ID_BUTTONUPDATE         "信息修改"
+    ID_BUTTONDELETE         "信息删除"
+    ID_BUTTONREFRESH        "信息刷新"
+    ID_BUTTONCLOSE          "关闭窗口"
+    IDS_Depremanage         "计提折旧"
+    IDS_redusemange         "减少管理"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_Undepre             "反计提"
+    IDS_Sysini              "系统初始化"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Equipment.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

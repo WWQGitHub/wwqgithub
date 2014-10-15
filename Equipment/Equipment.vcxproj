@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{DE4524A4-56E4-4923-8AC8-01B904057751}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\Equipment.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\Equipment.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Equipment.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\Equipment.dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\Equipment.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\Equipment.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Equipment.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\Equipment.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddEquip.cpp" />
+    <ClCompile Include="AddKinds.cpp" />
+    <ClCompile Include="adodc.cpp" />
+    <ClCompile Include="column.cpp" />
+    <ClCompile Include="columns.cpp" />
+    <ClCompile Include="CustomBar.cpp" />
+    <ClCompile Include="DataBackup.cpp" />
+    <ClCompile Include="dataformatdisp.cpp" />
+    <ClCompile Include="datagrid.cpp" />
+    <ClCompile Include="DataManage1.cpp" />
+    <ClCompile Include="DataRestore.cpp" />
+    <ClCompile Include="DeleteEquipment.cpp" />
+    <ClCompile Include="Depre.cpp" />
+    <ClCompile Include="EquipKind.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="EquipmentDlg.cpp" />
+    <ClCompile Include="field.cpp" />
+    <ClCompile Include="fields.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="NumberEdit.cpp" />
+    <ClCompile Include="picture.cpp" />
+    <ClCompile Include="properties.cpp" />
+    <ClCompile Include="property.cpp" />
+    <ClCompile Include="ReduceEquip.cpp" />
+    <ClCompile Include="ReduceKinds.cpp" />
+    <ClCompile Include="selbookmarks.cpp" />
+    <ClCompile Include="split.cpp" />
+    <ClCompile Include="splits.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="stddataformatsdisp.cpp" />
+    <ClCompile Include="SysIni.cpp" />
+    <ClCompile Include="UnDepre.cpp" />
+    <ClCompile Include="UpdateEquip.cpp" />
+    <ClCompile Include="UseState.cpp" />
+    <ClCompile Include="_recordset.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Equipment.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddEquip.h" />
+    <ClInclude Include="AddKinds.h" />
+    <ClInclude Include="adodc.h" />
+    <ClInclude Include="column.h" />
+    <ClInclude Include="columns.h" />
+    <ClInclude Include="CustomBar.h" />
+    <ClInclude Include="DataBackup.h" />
+    <ClInclude Include="dataformatdisp.h" />
+    <ClInclude Include="datagrid.h" />
+    <ClInclude Include="DataManage1.h" />
+    <ClInclude Include="DataRestore.h" />
+    <ClInclude Include="DeleteEquipment.h" />
+    <ClInclude Include="Depre.h" />
+    <ClInclude Include="EquipKind.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="EquipmentDlg.h" />
+    <ClInclude Include="field.h" />
+    <ClInclude Include="fields.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="NumberEdit.h" />
+    <ClInclude Include="picture.h" />
+    <ClInclude Include="properties.h" />
+    <ClInclude Include="property.h" />
+    <ClInclude Include="ReduceEquip.h" />
+    <ClInclude Include="ReduceKinds.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="selbookmarks.h" />
+    <ClInclude Include="split.h" />
+    <ClInclude Include="splits.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="stddataformatsdisp.h" />
+    <ClInclude Include="SysIni.h" />
+    <ClInclude Include="UnDepre.h" />
+    <ClInclude Include="UpdateEquip.h" />
+    <ClInclude Include="UseState.h" />
+    <ClInclude Include="_recordset.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\02.ico" />
+    <Image Include="res\35.ico" />
+    <Image Include="res\51.ico" />
+    <Image Include="res\63.ico" />
+    <Image Include="res\65.ico" />
+    <Image Include="res\a.ico" />
+    <Image Include="res\BE EDIT.ICO" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\car1.bmp" />
+    <Image Include="res\desktop.bmp" />
+    <Image Include="res\Equipment.ico" />
+    <Image Include="res\f.bmp" />
+    <Image Include="res\GR 027.ico" />
+    <Image Include="res\HOxmas1.ico" />
+    <Image Include="res\HOxmas12.ico" />
+    <Image Include="res\HOxmas33.ico" />
+    <Image Include="res\HOxmas34.ico" />
+    <Image Include="res\HTMLDOC.ICO" />
+    <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00002.ico" />
+    <Image Include="res\ico00003.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon10.ico" />
+    <Image Include="res\icon11.ico" />
+    <Image Include="res\icon12.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\icon4.ico" />
+    <Image Include="res\icon5.ico" />
+    <Image Include="res\icon6.ico" />
+    <Image Include="res\icon7.ico" />
+    <Image Include="res\icon8.ico" />
+    <Image Include="res\icon9.ico" />
+    <Image Include="res\temp.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar1.ico" />
+    <Image Include="res\toolbar2.bmp" />
+    <Image Include="res\toolbar2.ico" />
+    <Image Include="res\toolbar3.ico" />
+    <Image Include="res\toolbar4.ico" />
+    <Image Include="res\toolbar5.ico" />
+    <Image Include="res\toolbar6.ico" />
+    <Image Include="res\toolbar7.ico" />
+    <Image Include="res\toolbar8.ico" />
+    <Image Include="res\toolbar9.ico" />
+    <Image Include="res\删除.ico" />
+    <Image Include="res\未标题-1 拷贝.bmp" />
+    <Image Include="res\资产设备管理系统主界面.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\Equipment.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

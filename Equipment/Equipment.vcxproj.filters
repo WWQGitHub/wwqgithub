@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{478ef579-7aa5-4e5d-b486-faf3edf9669b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8230eabd-985b-4bd7-a1cb-c2e5b3deb5e3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{08cfdf1c-4101-4a20-baf2-2142be508147}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_recordset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddEquip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddKinds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adodc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="column.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="columns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBackup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dataformatdisp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="datagrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManage1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRestore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteEquipment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Depre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipKind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fields.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReduceEquip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReduceKinds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selbookmarks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="split.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="splits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stddataformatsdisp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysIni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnDepre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateEquip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UseState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Equipment.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_recordset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddEquip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddKinds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adodc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="column.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="columns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBackup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dataformatdisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="datagrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManage1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRestore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteEquipment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Depre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipKind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fields.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="property.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReduceEquip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReduceKinds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="selbookmarks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="split.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="splits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stddataformatsdisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysIni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnDepre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateEquip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UseState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\02.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\35.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\51.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\63.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\65.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\a.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BE EDIT.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\car1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\desktop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Equipment.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GR 027.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HOxmas1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HOxmas12.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HOxmas33.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HOxmas34.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HTMLDOC.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon10.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon11.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon12.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon7.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon8.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon9.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\temp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar7.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar8.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar9.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\删除.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\未标题-1 拷贝.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\资产设备管理系统主界面.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\Equipment.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

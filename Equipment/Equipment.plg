@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Equipment - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Equipment.res" /d "_DEBUG" /d "_AFXDLL" "D:\Code\Equipment\Equipment.rc"" 
+Creating temporary file "C:\Users\Admin\AppData\Local\Temp\RSPEDDA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Equipment.pdb" /debug /machine:I386 /out:"Debug/Equipment.exe" /pdbtype:sept 
+.\Debug\_recordset.obj
+.\Debug\AddEquip.obj
+.\Debug\AddKinds.obj
+.\Debug\adodc.obj
+.\Debug\column.obj
+.\Debug\columns.obj
+.\Debug\CustomBar.obj
+.\Debug\DataBackup.obj
+.\Debug\dataformatdisp.obj
+.\Debug\datagrid.obj
+.\Debug\DataManage1.obj
+.\Debug\DataRestore.obj
+.\Debug\DeleteEquipment.obj
+.\Debug\Depre.obj
+.\Debug\EquipKind.obj
+.\Debug\Equipment.obj
+.\Debug\EquipmentDlg.obj
+.\Debug\field.obj
+.\Debug\fields.obj
+.\Debug\font.obj
+.\Debug\NumberEdit.obj
+.\Debug\picture.obj
+.\Debug\properties.obj
+.\Debug\property.obj
+.\Debug\ReduceEquip.obj
+.\Debug\ReduceKinds.obj
+.\Debug\selbookmarks.obj
+.\Debug\split.obj
+.\Debug\splits.obj
+.\Debug\StdAfx.obj
+.\Debug\stddataformatsdisp.obj
+.\Debug\SysIni.obj
+.\Debug\UnDepre.obj
+.\Debug\UpdateEquip.obj
+.\Debug\UseState.obj
+.\Debug\Equipment.res
+]
+Creating command line "link.exe @C:\Users\Admin\AppData\Local\Temp\RSPEDDA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+Equipment.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
